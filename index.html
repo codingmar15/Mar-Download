@@ -74,7 +74,10 @@ h1,h2{letter-spacing:0;font-weight:700}h1{line-height:1.3}
 .install-card li:before{content:counter(s);flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#168bff1f;color:var(--sky);font:700 12px 'Poppins',sans-serif}
 .install-card li b{color:var(--text);font-weight:600}
 .legal{margin:22px auto 0;max-width:640px;font-size:12px;color:var(--muted);text-align:center;display:flex;gap:8px;justify-content:center;align-items:center}.legal .ic{width:16px;height:16px;color:var(--sky)}
-.disclaimer{margin:12px auto 0;max-width:640px;padding:12px 18px;border:1px solid var(--line);border-radius:14px;background:var(--panel);font-size:12.5px;color:var(--muted);text-align:center;line-height:1.8}.disclaimer b{color:var(--text);font-weight:700}
+.disclaimer{display:flex;align-items:center;gap:12px;margin:20px 0 0;padding:14px 20px;border:1px solid #f5b54a73;border-inline-start:4px solid #f5b54a;border-radius:14px;background:linear-gradient(120deg,#f5b54a1f,transparent 75%),var(--panel);font-size:14px;color:var(--text);line-height:1.8}
+.disclaimer .ic{width:24px;height:24px;color:#f5b54a}.disclaimer b{color:#f5b54a;font-weight:700}
+[data-theme=light] .disclaimer .ic,[data-theme=light] .disclaimer b{color:#b7791f}
+@media(max-width:680px){.disclaimer{font-size:13px;padding:12px 14px;align-items:flex-start}}
 .footer-dev{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted)}.footer-dev b{display:block;color:var(--text);font-weight:600;line-height:1.3}.footer-dev small{display:block;font-size:11px;line-height:1.3}
 .footer-dev .code{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:#168bff1f;color:var(--sky)}.footer-dev .code .ic{width:18px;height:18px}
 .footer-copy{font-size:11px;color:var(--muted)}
@@ -128,6 +131,7 @@ h1,h2{letter-spacing:0;font-weight:700}h1{line-height:1.3}
   <p class="dl-note"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>الآيفون غير مدعوم حالياً.</p>
  </article>
 </div>
+<p class="disclaimer" id="disclaimer"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg><span><b>إخلاء مسؤولية:</b> المستخدم وحده يتحمّل مسؤولية ما يحمّله، ونتبرأ من استخدام البرنامج في أي محتوى محرّم أو مخالف.</span></p>
 <p class="dl-more">كل الإصدارات وملاحظات التحديث: <a href="https://github.com/codingmar15/Mar-Download/releases">صفحة الإصدارات على GitHub ↗</a></p>
 </div></section>
 
@@ -156,9 +160,7 @@ h1,h2{letter-spacing:0;font-weight:700}h1{line-height:1.3}
   <li><span>إذا طلع تحذير Play Protect اضغط <b>"التثبيت على أي حال"</b>. يطلع لأي تطبيق من خارج Google Play.</span></li>
  </ol></article>
 </div>
-<p class="legal"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>Mar-Download يحمّل المحتوى العام فقط، ولا يتجاوز الحماية أو تسجيل الدخول. احترم حقوق أصحاب المحتوى.</p>
-<p class="disclaimer" id="disclaimer"><b>إخلاء مسؤولية:</b> المستخدم وحده يتحمّل مسؤولية ما يحمّله، ونتبرأ من استخدام البرنامج في أي محتوى محرّم أو مخالف.</p>
-</div></section>
+<p class="legal"><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>Mar-Download يحمّل المحتوى العام فقط، ولا يتجاوز الحماية أو تسجيل الدخول. احترم حقوق أصحاب المحتوى.</p></div></section>
 
 
 </main>
